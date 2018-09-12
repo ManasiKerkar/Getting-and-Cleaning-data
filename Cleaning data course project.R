@@ -39,6 +39,5 @@ x_train <- read.table("./data/UCI HAR Dataset/train/X_train.txt")
             > SecondTidydataSet <- SecondTidydataSet[order(SecondTidydataSet$subjectId, SecondTidydataSet$activityId),]
             > 
               > write.table(SecondTidydataset, "2nd Tidy Data set.txt", row.name=FALSE)
-            Error in is.data.frame(x) : object 'SecondTidydataset' not found
             > write.table(SecondTidydataSet, "2nd Tidy Data set.txt", row.name=FALSE)
             > 
